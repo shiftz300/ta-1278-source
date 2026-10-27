@@ -1,0 +1,303 @@
+{
+  "source": "nokia-ta1278-research/firmware/original/system-20261025T054301+0800/user.bin",
+  "source_sha256": "8f0db2dc82f9e763cb700c2e5781b7ca7125a4d250f4c075dbec793eb549c1ca",
+  "windows": [
+    {
+      "offset": "0x225e40",
+      "size": 44,
+      "sha256": "31d223c35d2fa6465d1e92c256e9d866969ecae2c24bef34f2f77554bde75b98",
+      "window_id": "0x90002",
+      "name": "FM_OPTION_WIN_ID",
+      "handler_thumb": "0x88591653",
+      "attributes": [
+        {
+          "opcode": "0xf01a",
+          "arguments": [
+            "0x4"
+          ],
+          "strings": {},
+          "framework_opcode": "MMK_WINDOW_STYLE",
+          "framework_macro": "WIN_STYLE",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_WIN_STYLE_": "0x4"
+          }
+        },
+        {
+          "opcode": "0xf020",
+          "arguments": [
+            "0x0",
+            "0x40000a1f",
+            "0x40000480"
+          ],
+          "strings": {
+            "0x40000a1f": {
+              "0": "Select",
+              "1": "选择",
+              "2": "選擇"
+            },
+            "0x40000480": {
+              "0": "Freedom",
+              "1": "Freedom",
+              "2": "Freedom"
+            }
+          },
+          "framework_opcode": "MMK_CREATE_SOFTKEY",
+          "framework_macro": "WIN_SOFTKEY",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LEFT_SOFT_ID_": "0x0",
+            "_MID_SOFT_ID_": "0x40000a1f",
+            "_RIGHT_SOFT_ID_": "0x40000480"
+          }
+        }
+      ]
+    },
+    {
+      "offset": "0x229d58",
+      "size": 44,
+      "sha256": "17d2172c16e65cecf6c7983b634a37349751ac2d0ee41cd93d9aa92cb8e8c1db",
+      "window_id": "0xe004e",
+      "name": "MMIMP3_LOAD_WAIT_WIN_ID",
+      "handler_thumb": "0x88ad6ea5",
+      "attributes": [
+        {
+          "opcode": "0xf031",
+          "arguments": [
+            "0xe00da"
+          ],
+          "strings": {},
+          "framework_opcode": "unresolved"
+        },
+        {
+          "opcode": "0xf020",
+          "arguments": [
+            "0x40000000",
+            "0x40000000",
+            "0x40000480"
+          ],
+          "strings": {
+            "0x40000480": {
+              "0": "Freedom",
+              "1": "Freedom",
+              "2": "Freedom"
+            }
+          },
+          "framework_opcode": "MMK_CREATE_SOFTKEY",
+          "framework_macro": "WIN_SOFTKEY",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LEFT_SOFT_ID_": "0x40000000",
+            "_MID_SOFT_ID_": "0x40000000",
+            "_RIGHT_SOFT_ID_": "0x40000480"
+          }
+        }
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "name": "music-refresh",
+      "source_session": "ta1278-native-034",
+      "source_frame": "music-start",
+      "source_file": "ta1278-native-034/music-start.jpg",
+      "source_sha256": "1cc9808f0f4306fbb975b40e9f5b165972d83e2389c95569ade8f4bbd7908faf",
+      "header_repair": null,
+      "png": "music-refresh.png",
+      "png_sha256": "ead0b97bd957adf40ed8056d874b36c8930040805e1bb157b670b67564b45c59",
+      "pixel_sha256": "bdc5f2d91479a69558ef6927e66c895f4779a2598a64ea96e3965e3cdfdf54d6",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "music-root-empty-selection",
+      "source_session": "ta1278-native-035",
+      "source_frame": "baseline",
+      "source_file": "ta1278-native-035/baseline.jpg",
+      "source_sha256": "14580c6ad123976ee56c5e86be1e4f2a8ba1986fa3f55632af74c3bb69b00f1a",
+      "header_repair": null,
+      "png": "music-root-empty-selection.png",
+      "png_sha256": "4848c46eac75a4ef207adef055dfbee397128b23f1af49bd1fbbbcc82d62083e",
+      "pixel_sha256": "613a2a36190954fbe42e0891cd52912219e10a6200912df6d7f1d0f1700109d9",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "music-options",
+      "source_session": "ta1278-native-036",
+      "source_frame": "music-options",
+      "source_file": "ta1278-native-036/music-options.jpg",
+      "source_sha256": "8a10efeb24695e16adde31f2d69ebe07a33b667819b6434ba1eafcdec39c83f3",
+      "header_repair": null,
+      "png": "music-options.png",
+      "png_sha256": "e6d4802f9b9f2d0aa25f450da0edc583ac8756550f16f9fa6e1e78e07a01d75c",
+      "pixel_sha256": "d4243e54999471f8ef9cc8bb57c250ddb186993501225f6ca70e228066beaa89",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "system-settings",
+      "source_session": "ta1278-native-047",
+      "source_frame": "system-settings",
+      "source_file": "ta1278-native-047/system-settings.raw-image.bin",
+      "source_sha256": "34c0a3bd8ecb47d775c55509c44382a41c595c210d90969ccdec5dbaf79b52dd",
+      "header_repair": "recover_48_byte_prefix_with_verified_native_DQT",
+      "png": "system-settings.png",
+      "png_sha256": "e8551d8437315f58b1407566714b188fa6158d7689bb95d718ea3be14769c3cd",
+      "pixel_sha256": "cfb11f4309b9960b78936c336784bc98f4210c01f0a99559397a3f7352368f88",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "personalization",
+      "source_session": "ta1278-native-049",
+      "source_frame": "personalization",
+      "source_file": "ta1278-native-049/personalization.raw-image.bin",
+      "source_sha256": "47f093913869547451cfa5ac69715b89707ab7018e612983ade1d642f1ac4c0e",
+      "header_repair": "recover_48_byte_prefix_with_verified_native_DQT",
+      "png": "personalization.png",
+      "png_sha256": "cd9a3f40740af9051445e62a1c4845bd013909e37b324d85dfac55f3f409936d",
+      "pixel_sha256": "64d2bf923defbdbc196e0f151da9c2fb32705bcef84f874b40b4f93f0e60c840",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "stopwatch-root",
+      "source_session": "ta1278-native-119",
+      "source_frame": "stopwatch-root",
+      "source_file": "ta1278-native-119/stopwatch-root.raw-image.bin",
+      "source_sha256": "63c6d982f9cb860ed803a910c784602f869aa5b1eb5a34a8308812fcb8132818",
+      "header_repair": "replace_damaged_20_byte_prefix_with_SOI",
+      "png": "stopwatch-root.png",
+      "png_sha256": "503f96b976336fdd1e6c5403a12277942091a67ca4d24019ac91895b1235f8d0",
+      "pixel_sha256": "45c5e710eea305e62c0b686e244b2cd8a5ac2de5d49e65a30b06dc796b6cf303",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "stopwatch-running",
+      "source_session": "ta1278-native-120",
+      "source_frame": "stopwatch-running",
+      "source_file": "ta1278-native-120/stopwatch-running.raw-image.bin",
+      "source_sha256": "931df92738bec3e7a1b474bddf943226e7c9e0e31c5e221dd2e03bae0616406c",
+      "header_repair": "replace_damaged_20_byte_prefix_with_SOI",
+      "png": "stopwatch-running.png",
+      "png_sha256": "36ff33eff044aecb24f3aeb57ac4561dea6997339a853c41e1fe223432ca38a0",
+      "pixel_sha256": "41e45f18dc30fcf5eb9361254d0a880a82e94a835c93a506c562d0d9afc3ff8d",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "stopwatch-lap",
+      "source_session": "ta1278-native-121",
+      "source_frame": "stopwatch-lap",
+      "source_file": "ta1278-native-121/stopwatch-lap.raw-image.bin",
+      "source_sha256": "45d1194bcc638a4e0fbfd30a696a13b0ced48c3a7074a179f5c46853e97a96d5",
+      "header_repair": "replace_damaged_20_byte_prefix_with_SOI",
+      "png": "stopwatch-lap.png",
+      "png_sha256": "c608d54b966de8bc3a04bea22abd17a42138896d91ca2d2e4ceeb7af3047d7e2",
+      "pixel_sha256": "dff00661fe7df764b946badc771ff32a60f2a829b69ccb9f899dffb61e6f2d7c",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "stopwatch-stopped",
+      "source_session": "ta1278-native-122",
+      "source_frame": "stopwatch-stopped",
+      "source_file": "ta1278-native-122/stopwatch-stopped.jpg",
+      "source_sha256": "1e30b4ce8b983a482f5832fefd8760fae0f79bb28b046f2d52befde6dfe21cc9",
+      "header_repair": null,
+      "png": "stopwatch-stopped.png",
+      "png_sha256": "9095e68ca08e416e587743a5abd508a7c92bdc7c1fe3392f5a1d8a967714180f",
+      "pixel_sha256": "5edd28c4872b40f0b1e6a5d0e53f601fdb31f4c59a58595885cfacfe224375ae",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "stopwatch-reset",
+      "source_session": "ta1278-native-123",
+      "source_frame": "stopwatch-reset",
+      "source_file": "ta1278-native-123/stopwatch-reset.jpg",
+      "source_sha256": "e162fc722702f8032987a1edcaa8cdbba51c0deccf4ee3fe84d972217342cfb7",
+      "header_repair": null,
+      "png": "stopwatch-reset.png",
+      "png_sha256": "ce995c8d281a060009be22b3ddf7b22e34ede8a629ee7be1e9a4f1b8a42e9d90",
+      "pixel_sha256": "638a584176f968ff5288b52740a039afe1d947323899587cbc3601a4d8c2264a",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "calendar-options",
+      "source_session": "ta1278-native-138",
+      "source_frame": "calendar-options",
+      "source_file": "ta1278-native-138/calendar-options.jpg",
+      "source_sha256": "593690aec5842c77e74e5f2f51cb3e1c70ea8b8f4e9208d115471b3851a9ce03",
+      "header_repair": null,
+      "png": "calendar-options.png",
+      "png_sha256": "43c227e7024b81c17bc18bac506513632deb9f17ea4bf9aaca9a2dd8d4f48c66",
+      "pixel_sha256": "501f832f2d595ed584c3d3bfd76808d6d246d2bdbfc1af66200a0c6dee8e31b3",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "radio-options",
+      "source_session": "ta1278-native-157",
+      "source_frame": "radio-options",
+      "source_file": "ta1278-native-157/radio-options.raw-image.bin",
+      "source_sha256": "05d560460a055bff6b1fd696e90978f77718a9113595e5d2b192bdb7bbc088cf",
+      "header_repair": "recover_48_byte_prefix_with_verified_native_DQT",
+      "png": "radio-options.png",
+      "png_sha256": "86e6f7741a16df612446ffb75b355abfbdb20cf62e7636a9a0d1edb830d5f1ff",
+      "pixel_sha256": "962fb8e8c51c32db1106a0aefead654fe3327017add9b6d8ad7e982517dc5bba",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "radio-close-option",
+      "source_session": "ta1278-native-158",
+      "source_frame": "radio-option-6",
+      "source_file": "ta1278-native-158/radio-option-6.raw-image.bin",
+      "source_sha256": "18d2274b8dd1849b62c4b4fc48c4beecf76bdf2ea15873f911bebe061c7fdf2e",
+      "header_repair": "recover_48_byte_prefix_with_verified_native_DQT",
+      "png": "radio-close-option.png",
+      "png_sha256": "2d57604cac032ca0d9cbfb3d25b3accb9592f70e57bd009fd12ed23c6eeec8ae",
+      "pixel_sha256": "0f9e2e3a0783fe926c47b7d03208553d95784ee96ba52ac03f9c226c93af4cac",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "contacts-options",
+      "source_session": "ta1278-native-168",
+      "source_frame": "contacts-options",
+      "source_file": "ta1278-native-168/contacts-options.raw-image.bin",
+      "source_sha256": "94af3c7118b6467fdf376b891ae3a78971243877e270185cb00bb6a20ae0a082",
+      "header_repair": "replace_damaged_20_byte_prefix_with_SOI",
+      "png": "contacts-options.png",
+      "png_sha256": "7efd33d1e1c8d51c5a533178a616a1f8ae7aecdc9e42cac53e188d1abb40e4ca",
+      "pixel_sha256": "a35fe2c10604bc71792559525db4297357f8f3509e892ea7147cd2fb5857debc",
+      "device_firmware": "17.00.17.02"
+    },
+    {
+      "name": "test-contact-options",
+      "source_session": "ta1278-native-173",
+      "source_frame": "test-contact-options",
+      "source_file": "ta1278-native-173/test-contact-options.raw-image.bin",
+      "source_sha256": "4af71eaaea27561ec221114d5f469b473e2309c9ac45e8ea13c8cd40ce9281b1",
+      "header_repair": "replace_damaged_20_byte_prefix_with_SOI",
+      "png": "test-contact-options.png",
+      "png_sha256": "93c81af8e5d0a8bb351b8753a684685235d0b17a2dd68f560a8d0e9fc0a0ee40",
+      "pixel_sha256": "0d9fa2c8eb0524615d53bde00f71a8d2821435cd4283239226308e2c4960fe61",
+      "device_firmware": "17.00.17.02"
+    }
+  ],
+  "ranges": [
+    {
+      "start": "0x88591652",
+      "end": "0x88591700",
+      "sha256": "7ddc4dbbf5839bd2ce4c5c29ce6abcdb2ea1c28035094d7bc35c89c317f8ac8c"
+    },
+    {
+      "start": "0x88ad6ea4",
+      "end": "0x88ad6fe8",
+      "sha256": "7a2aef4e0752ae2eb596afb47de6fcb4bb4311f60822e0ae69b5ca1b8bf414f8"
+    }
+  ],
+  "confirmed": [
+    "Separate FM option and music load-wait windows, descriptor bytes and handler addresses.",
+    "FM menu left softkey is empty and center is Select.",
+    "Retained screenshots show dimmed parent pages under FM/music options; music refresh has a waiting caption instead of the library."
+  ],
+  "limits": [
+    "Descriptor presence is not a full handler reconstruction.",
+    "The FM speaker row is grey in these captures; the native hardware predicate is not recovered. Replica has no FM backend and leaves it disabled.",
+    "Music scan input gating, background completion and the generated dot animation are local implementation policies.",
+    "Stopwatch screenshots cover one lap only; no maximum, multiple-lap ordering or scrolling claim is made."
+  ]
+}

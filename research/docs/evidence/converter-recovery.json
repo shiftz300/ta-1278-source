@@ -1,0 +1,862 @@
+{
+  "source": "nokia-ta1278-research/firmware/original/system-20261025T054301+0800/user.bin",
+  "source_sha256": "8f0db2dc82f9e763cb700c2e5781b7ca7125a4d250f4c075dbec793eb549c1ca",
+  "initialization": "nokia-ta1278-research/analysis/extracted/kernel/init_81c20000.bin",
+  "initialization_sha256": "76b95ae0d1948b677a38d8e6311b65f154642fb19723a4dcdcc8ec0a2da04210",
+  "table_address": "0x81c47c24",
+  "table_sha256": "db5f1641beabf87d49f0e522ebf15d1c927921de01e4afc5e8c460fb34a77555",
+  "pairs": [
+    {
+      "category": 0,
+      "index": 0,
+      "menu_resource": "0x4017001c",
+      "title": "华氏-摄氏",
+      "labels": [
+        "华氏：",
+        "摄氏："
+      ],
+      "factor": {
+        "table_offset": "0x18",
+        "address": "0x8826578c",
+        "text": "1/1.8"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x1c",
+        "address": "0x88265794",
+        "text": "1.8"
+      },
+      "offsets": [
+        {
+          "table_offset": "0x0",
+          "address": "0x88265758",
+          "text": "-17.777778"
+        },
+        {
+          "table_offset": "0x4",
+          "address": "0x88265764",
+          "text": "32"
+        }
+      ]
+    },
+    {
+      "category": 0,
+      "index": 1,
+      "menu_resource": "0x4017001d",
+      "title": "开氏-华氏",
+      "labels": [
+        "开氏：",
+        "华氏："
+      ],
+      "factor": {
+        "table_offset": "0x20",
+        "address": "0x88265794",
+        "text": "1.8"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x24",
+        "address": "0x88265798",
+        "text": "0.555556"
+      },
+      "offsets": [
+        {
+          "table_offset": "0x8",
+          "address": "0x88265768",
+          "text": "-459.67"
+        },
+        {
+          "table_offset": "0xc",
+          "address": "0x88265770",
+          "text": "255.372222"
+        }
+      ]
+    },
+    {
+      "category": 0,
+      "index": 2,
+      "menu_resource": "0x4017001e",
+      "title": "开氏-摄氏",
+      "labels": [
+        "开氏：",
+        "摄氏："
+      ],
+      "factor": {
+        "table_offset": "0x28",
+        "address": "0x882657a4",
+        "text": "1.0"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x2c",
+        "address": "0x882657a4",
+        "text": "1.0"
+      },
+      "offsets": [
+        {
+          "table_offset": "0x10",
+          "address": "0x8826577c",
+          "text": "-273.15"
+        },
+        {
+          "table_offset": "0x14",
+          "address": "0x88265784",
+          "text": "273.15"
+        }
+      ]
+    },
+    {
+      "category": 1,
+      "index": 0,
+      "menu_resource": "0x40170026",
+      "title": "磅-公斤",
+      "labels": [
+        "磅：",
+        "公斤："
+      ],
+      "factor": {
+        "table_offset": "0x30",
+        "address": "0x882657a8",
+        "text": "0.4536"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x34",
+        "address": "0x882657b0",
+        "text": "2.204623"
+      },
+      "offsets": []
+    },
+    {
+      "category": 1,
+      "index": 1,
+      "menu_resource": "0x40170022",
+      "title": "克拉-克",
+      "labels": [
+        "克拉：",
+        "克："
+      ],
+      "factor": {
+        "table_offset": "0x38",
+        "address": "0x882657bc",
+        "text": "0.2"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x3c",
+        "address": "0x882657c0",
+        "text": "5.0"
+      },
+      "offsets": []
+    },
+    {
+      "category": 1,
+      "index": 2,
+      "menu_resource": "0x40170023",
+      "title": "盎司-克",
+      "labels": [
+        "盎司：",
+        "克："
+      ],
+      "factor": {
+        "table_offset": "0x40",
+        "address": "0x882657c4",
+        "text": "28.35"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x44",
+        "address": "0x882657cc",
+        "text": "0.035274"
+      },
+      "offsets": []
+    },
+    {
+      "category": 1,
+      "index": 3,
+      "menu_resource": "0x40170024",
+      "title": "金衡制盎司-克",
+      "labels": [
+        "金衡制盎司：",
+        "克："
+      ],
+      "factor": {
+        "table_offset": "0x48",
+        "address": "0x882657d8",
+        "text": "31.103477"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x4c",
+        "address": "0x882657e4",
+        "text": "0.032151"
+      },
+      "offsets": []
+    },
+    {
+      "category": 1,
+      "index": 4,
+      "menu_resource": "0x40170025",
+      "title": "英石-公斤",
+      "labels": [
+        "英石：",
+        "公斤："
+      ],
+      "factor": {
+        "table_offset": "0x50",
+        "address": "0x882657f0",
+        "text": "6.3502932"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x54",
+        "address": "0x882657fc",
+        "text": "0.157473"
+      },
+      "offsets": []
+    },
+    {
+      "category": 2,
+      "index": 0,
+      "menu_resource": "0x40170032",
+      "title": "英里-公里",
+      "labels": [
+        "英里：",
+        "公里："
+      ],
+      "factor": {
+        "table_offset": "0x58",
+        "address": "0x88265808",
+        "text": "1.609"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x5c",
+        "address": "0x88265810",
+        "text": "0.621371"
+      },
+      "offsets": []
+    },
+    {
+      "category": 2,
+      "index": 1,
+      "menu_resource": "0x4017002e",
+      "title": "码-米",
+      "labels": [
+        "码：",
+        "米："
+      ],
+      "factor": {
+        "table_offset": "0x60",
+        "address": "0x8826581c",
+        "text": "0.9144"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x64",
+        "address": "0x88265824",
+        "text": "1.093613"
+      },
+      "offsets": []
+    },
+    {
+      "category": 2,
+      "index": 2,
+      "menu_resource": "0x4017002f",
+      "title": "英尺-米",
+      "labels": [
+        "英尺：",
+        "米："
+      ],
+      "factor": {
+        "table_offset": "0x68",
+        "address": "0x88265830",
+        "text": "0.3048"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x6c",
+        "address": "0x88265838",
+        "text": "3.28084"
+      },
+      "offsets": []
+    },
+    {
+      "category": 2,
+      "index": 3,
+      "menu_resource": "0x40170030",
+      "title": "英尺-厘米",
+      "labels": [
+        "英尺：",
+        "厘米："
+      ],
+      "factor": {
+        "table_offset": "0x70",
+        "address": "0x88265840",
+        "text": "30.48"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x74",
+        "address": "0x88265848",
+        "text": "0.032808"
+      },
+      "offsets": []
+    },
+    {
+      "category": 2,
+      "index": 4,
+      "menu_resource": "0x40170031",
+      "title": "英寸-厘米",
+      "labels": [
+        "英寸：",
+        "厘米："
+      ],
+      "factor": {
+        "table_offset": "0x78",
+        "address": "0x88265854",
+        "text": "2.5401"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x7c",
+        "address": "0x8826585c",
+        "text": "0.3937008"
+      },
+      "offsets": []
+    },
+    {
+      "category": 3,
+      "index": 0,
+      "menu_resource": "0x4017003a",
+      "title": "英尺²-米²",
+      "labels": [
+        "平方英尺：",
+        "平方米："
+      ],
+      "factor": {
+        "table_offset": "0x80",
+        "address": "0x88265868",
+        "text": "0.0929"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x84",
+        "address": "0x88265870",
+        "text": "10.7639111056"
+      },
+      "offsets": []
+    },
+    {
+      "category": 3,
+      "index": 1,
+      "menu_resource": "0x4017003b",
+      "title": "英寸²-厘米²",
+      "labels": [
+        "平方英寸：",
+        "平方厘米："
+      ],
+      "factor": {
+        "table_offset": "0x88",
+        "address": "0x88265880",
+        "text": "6.4516"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x8c",
+        "address": "0x88265888",
+        "text": "0.155"
+      },
+      "offsets": []
+    },
+    {
+      "category": 3,
+      "index": 2,
+      "menu_resource": "0x4017003c",
+      "title": "码²-米²",
+      "labels": [
+        "平方码：",
+        "平方米："
+      ],
+      "factor": {
+        "table_offset": "0x90",
+        "address": "0x88265890",
+        "text": "0.8361274"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x94",
+        "address": "0x8826589c",
+        "text": "1.19599"
+      },
+      "offsets": []
+    },
+    {
+      "category": 3,
+      "index": 3,
+      "menu_resource": "0x4017003d",
+      "title": "英里²-公里²",
+      "labels": [
+        "平方英里：",
+        "平方公里："
+      ],
+      "factor": {
+        "table_offset": "0x98",
+        "address": "0x882658a4",
+        "text": "2.59"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0x9c",
+        "address": "0x882658ac",
+        "text": "0.386102"
+      },
+      "offsets": []
+    },
+    {
+      "category": 3,
+      "index": 4,
+      "menu_resource": "0x4017003e",
+      "title": "英亩-公顷",
+      "labels": [
+        "英亩：",
+        "公顷："
+      ],
+      "factor": {
+        "table_offset": "0xa0",
+        "address": "0x882658b8",
+        "text": "0.4047"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0xa4",
+        "address": "0x882658c0",
+        "text": "2.471054"
+      },
+      "offsets": []
+    },
+    {
+      "category": 4,
+      "index": 0,
+      "menu_resource": "0x40170048",
+      "title": "英寸³-厘米³",
+      "labels": [
+        "立方英寸：",
+        "立方厘米："
+      ],
+      "factor": {
+        "table_offset": "0xa8",
+        "address": "0x882658cc",
+        "text": "16.387064"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0xac",
+        "address": "0x882658d8",
+        "text": "0.061024"
+      },
+      "offsets": []
+    },
+    {
+      "category": 4,
+      "index": 1,
+      "menu_resource": "0x40170049",
+      "title": "英尺³-米³",
+      "labels": [
+        "立方英尺：",
+        "立方米："
+      ],
+      "factor": {
+        "table_offset": "0xb0",
+        "address": "0x882658e4",
+        "text": "0.0283168"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0xb4",
+        "address": "0x882658f0",
+        "text": "35.314667"
+      },
+      "offsets": []
+    },
+    {
+      "category": 4,
+      "index": 2,
+      "menu_resource": "0x4017004a",
+      "title": "米³-码³",
+      "labels": [
+        "立方米：",
+        "立方码："
+      ],
+      "factor": {
+        "table_offset": "0xb8",
+        "address": "0x882658fc",
+        "text": "1.3079505"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0xbc",
+        "address": "0x88265908",
+        "text": "0.764555"
+      },
+      "offsets": []
+    },
+    {
+      "category": 4,
+      "index": 3,
+      "menu_resource": "0x4017004b",
+      "title": "加仑-升",
+      "labels": [
+        "加仑：",
+        "升："
+      ],
+      "factor": {
+        "table_offset": "0xc0",
+        "address": "0x88265914",
+        "text": "3.78541"
+      },
+      "unused_reciprocal": {
+        "table_offset": "0xc4",
+        "address": "0x8826591c",
+        "text": "0.264172"
+      },
+      "offsets": []
+    }
+  ],
+  "windows": [
+    {
+      "offset": "0x733a08",
+      "size": 52,
+      "sha256": "41f01cdd50b27ea4abba32c23fbf33e9228575e7cd946697291da4482f265af5",
+      "window_id": "0x17001c",
+      "name": "MMIUNITCONV_MAIN_WIN_ID",
+      "handler_thumb": "0x88b9d685",
+      "attributes": [
+        {
+          "opcode": "0xf01f",
+          "arguments": [],
+          "strings": {},
+          "framework_opcode": "MMK_CREATE_STATUSBAR"
+        },
+        {
+          "opcode": "0xf009",
+          "arguments": [
+            "0x3",
+            "0x170102"
+          ],
+          "strings": {},
+          "framework_opcode": "MMK_CREATE_LISTBOX",
+          "framework_macro": "CREATE_LISTBOX_CTRL",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LIST_TYPE_": "0x3",
+            "_CTRL_ID_": "0x170102"
+          }
+        },
+        {
+          "opcode": "0xf020",
+          "arguments": [
+            "0x40000489",
+            "0x40000a1f",
+            "0x40000480"
+          ],
+          "strings": {
+            "0x40000489": {
+              "0": "SPM AMERIS",
+              "1": "SPM AMERIS",
+              "2": "SPM AMERIS"
+            },
+            "0x40000a1f": {
+              "0": "Select",
+              "1": "选择",
+              "2": "選擇"
+            },
+            "0x40000480": {
+              "0": "Freedom",
+              "1": "Freedom",
+              "2": "Freedom"
+            }
+          },
+          "framework_opcode": "MMK_CREATE_SOFTKEY",
+          "framework_macro": "WIN_SOFTKEY",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LEFT_SOFT_ID_": "0x40000489",
+            "_MID_SOFT_ID_": "0x40000a1f",
+            "_RIGHT_SOFT_ID_": "0x40000480"
+          }
+        }
+      ]
+    },
+    {
+      "offset": "0x733a3c",
+      "size": 52,
+      "sha256": "d8c8c93e17dcc84edd15b437d1b9bb59d0fea75db57bebbbcaea5b675168e8ba",
+      "window_id": "0x17001d",
+      "name": "MMIUNITCONV_SUBSET_WIN_ID",
+      "handler_thumb": "0x88b9d9c9",
+      "attributes": [
+        {
+          "opcode": "0xf01f",
+          "arguments": [],
+          "strings": {},
+          "framework_opcode": "MMK_CREATE_STATUSBAR"
+        },
+        {
+          "opcode": "0xf009",
+          "arguments": [
+            "0x3",
+            "0x170103"
+          ],
+          "strings": {},
+          "framework_opcode": "MMK_CREATE_LISTBOX",
+          "framework_macro": "CREATE_LISTBOX_CTRL",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LIST_TYPE_": "0x3",
+            "_CTRL_ID_": "0x170103"
+          }
+        },
+        {
+          "opcode": "0xf020",
+          "arguments": [
+            "0x40000000",
+            "0x40000a1f",
+            "0x40000480"
+          ],
+          "strings": {
+            "0x40000a1f": {
+              "0": "Select",
+              "1": "选择",
+              "2": "選擇"
+            },
+            "0x40000480": {
+              "0": "Freedom",
+              "1": "Freedom",
+              "2": "Freedom"
+            }
+          },
+          "framework_opcode": "MMK_CREATE_SOFTKEY",
+          "framework_macro": "WIN_SOFTKEY",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LEFT_SOFT_ID_": "0x40000000",
+            "_MID_SOFT_ID_": "0x40000a1f",
+            "_RIGHT_SOFT_ID_": "0x40000480"
+          }
+        }
+      ]
+    },
+    {
+      "offset": "0x733a70",
+      "size": 132,
+      "sha256": "0e01659ffdc65b1ce3197d956da388c54904e59818609504b4412b04e3bcdf56",
+      "window_id": "0x17001e",
+      "name": "MMIUNITCONV_CONVERTER_WIN_ID",
+      "handler_thumb": "0x88b9e303",
+      "attributes": [
+        {
+          "opcode": "0xf01f",
+          "arguments": [],
+          "strings": {},
+          "framework_opcode": "MMK_CREATE_STATUSBAR"
+        },
+        {
+          "opcode": "0xf025",
+          "arguments": [
+            "0x0",
+            "0x170104"
+          ],
+          "strings": {},
+          "framework_opcode": "MMK_CREATE_FORM",
+          "framework_macro": "CREATE_FORM_CTRL",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LAYOUT_": "0x0",
+            "_CTRL_ID_": "0x170104"
+          }
+        },
+        {
+          "opcode": "0xf101",
+          "arguments": [
+            "0x1",
+            "0xd",
+            "0x170105",
+            "0x170104"
+          ],
+          "strings": {},
+          "framework_opcode": "CREATE_CHILD_EDIT_TEXT",
+          "framework_macro": "CHILD_EDIT_TEXT_CTRL",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_IS_GET_ACTIVE_": "0x1",
+            "_STR_MAX_LEN_": "0xd",
+            "_CTRL_ID_": "0x170105",
+            "_PARENT_CTRL_ID_": "0x170104"
+          }
+        },
+        {
+          "opcode": "0xf101",
+          "arguments": [
+            "0x1",
+            "0xd",
+            "0x170106",
+            "0x170104"
+          ],
+          "strings": {},
+          "framework_opcode": "CREATE_CHILD_EDIT_TEXT",
+          "framework_macro": "CHILD_EDIT_TEXT_CTRL",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_IS_GET_ACTIVE_": "0x1",
+            "_STR_MAX_LEN_": "0xd",
+            "_CTRL_ID_": "0x170106",
+            "_PARENT_CTRL_ID_": "0x170104"
+          }
+        },
+        {
+          "opcode": "0xf101",
+          "arguments": [
+            "0x1",
+            "0xd",
+            "0x170107",
+            "0x170104"
+          ],
+          "strings": {},
+          "framework_opcode": "CREATE_CHILD_EDIT_TEXT",
+          "framework_macro": "CHILD_EDIT_TEXT_CTRL",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_IS_GET_ACTIVE_": "0x1",
+            "_STR_MAX_LEN_": "0xd",
+            "_CTRL_ID_": "0x170107",
+            "_PARENT_CTRL_ID_": "0x170104"
+          }
+        },
+        {
+          "opcode": "0xf101",
+          "arguments": [
+            "0x1",
+            "0xd",
+            "0x170108",
+            "0x170104"
+          ],
+          "strings": {},
+          "framework_opcode": "CREATE_CHILD_EDIT_TEXT",
+          "framework_macro": "CHILD_EDIT_TEXT_CTRL",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_IS_GET_ACTIVE_": "0x1",
+            "_STR_MAX_LEN_": "0xd",
+            "_CTRL_ID_": "0x170108",
+            "_PARENT_CTRL_ID_": "0x170104"
+          }
+        },
+        {
+          "opcode": "0xf020",
+          "arguments": [
+            "0x40000000",
+            "0x40000001",
+            "0x40000480"
+          ],
+          "strings": {
+            "0x40000001": {
+              "0": "",
+              "1": "",
+              "2": ""
+            },
+            "0x40000480": {
+              "0": "Freedom",
+              "1": "Freedom",
+              "2": "Freedom"
+            }
+          },
+          "framework_opcode": "MMK_CREATE_SOFTKEY",
+          "framework_macro": "WIN_SOFTKEY",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LEFT_SOFT_ID_": "0x40000000",
+            "_MID_SOFT_ID_": "0x40000001",
+            "_RIGHT_SOFT_ID_": "0x40000480"
+          }
+        }
+      ]
+    },
+    {
+      "offset": "0x733af4",
+      "size": 44,
+      "sha256": "260e78672f01692080bfe332c7ecb14b0d712169a2212d75b0c90caaea6f51ce",
+      "window_id": "0x170026",
+      "name": "MMIUNITCONV_CONVERTER_LIST_OPT_WIN_ID",
+      "handler_thumb": "0x88b9e99d",
+      "attributes": [
+        {
+          "opcode": "0xf01a",
+          "arguments": [
+            "0x4"
+          ],
+          "strings": {},
+          "framework_opcode": "MMK_WINDOW_STYLE",
+          "framework_macro": "WIN_STYLE",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_WIN_STYLE_": "0x4"
+          }
+        },
+        {
+          "opcode": "0xf020",
+          "arguments": [
+            "0x40000839",
+            "0x40000001",
+            "0x40000012"
+          ],
+          "strings": {
+            "0x40000839": {
+              "0": "OK",
+              "1": "确认",
+              "2": "確認"
+            },
+            "0x40000001": {
+              "0": "",
+              "1": "",
+              "2": ""
+            },
+            "0x40000012": {
+              "0": "Return",
+              "1": "返回",
+              "2": "返回"
+            }
+          },
+          "framework_opcode": "MMK_CREATE_SOFTKEY",
+          "framework_macro": "WIN_SOFTKEY",
+          "operand_schema_match": true,
+          "named_arguments": {
+            "_LEFT_SOFT_ID_": "0x40000839",
+            "_MID_SOFT_ID_": "0x40000001",
+            "_RIGHT_SOFT_ID_": "0x40000012"
+          }
+        }
+      ]
+    }
+  ],
+  "runtime_input_limit": 12,
+  "descriptor_capacity": 13,
+  "ranges": [
+    {
+      "start": "0x88b9cf26",
+      "end": "0x88b9d31c",
+      "sha256": "2dce3aac026fe5bb6dca853e1ce7b48ce338b50a0b64d72e21288327bb541425"
+    },
+    {
+      "start": "0x88b9d3e8",
+      "end": "0x88b9d4bc",
+      "sha256": "816d24b8d220cbfd8ef385ccbffa5a5aa06245d1ee3994e548e2c510546db779"
+    },
+    {
+      "start": "0x88b9d7d0",
+      "end": "0x88b9da9a",
+      "sha256": "e4f7668f35d6bf13639f2458e558b83fe234ce578650e002b4bdd3878e61d4f8"
+    },
+    {
+      "start": "0x88b9df52",
+      "end": "0x88b9e152",
+      "sha256": "acd1e895e9afaea3601e347ced68e5e871f0303a46e4d81302ff2e09f66d2436"
+    },
+    {
+      "start": "0x88b9e4d6",
+      "end": "0x88b9e634",
+      "sha256": "cbc52047448b39dd4054954c14997598452606771e9e0c3f30dfdb19d87f5b29"
+    }
+  ],
+  "confirmed": [
+    "22 pair entries, menu order and conversion factors from ROM and initialized pointers.",
+    "Forward computes input*numerator/denominator + forward offset; reverse computes input*denominator/numerator + reverse offset. The adjacent rounded reciprocal strings are not used by this dispatcher.",
+    "Native result formatter uses ten decimal places, copies 12 characters for nonnegative or 16 for negative fixed output, then trims trailing zeros; tiny nonzero results take %e.",
+    "Runtime rejects input length above 12 despite child descriptor capacity 13."
+  ],
+  "limits": [
+    "Decimal parsing/rounding at halfway values may differ between Rust and the original C library.",
+    "Currency and saved custom conversions are not implemented or claimed equivalent.",
+    "Physical captures cover temperature only; other pair labels/order and arithmetic are static evidence.",
+    "Clear-all, signed input shortcuts and invalid-input feedback use local policies where physical transitions are absent."
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-27",
+  "baseline": "Working tree at start of source cleanup, including prior uncommitted corrections/config/UI work.",
+  "before": {
+    "files": 117,
+    "lines": 27558,
+    "bytes": 963459
+  },
+  "after": {
+    "files": 120,
+    "lines": 27393,
+    "bytes": 957146
+  },
+  "net_removed_lines": 165,
+  "net_removed_bytes": 6313,
+  "source_scope": "crates/*/src/**/*.rs; generated Rust and tests included",
+  "single_word_filenames": true,
+  "moves": {
+    "crates/phone-desktop/src/candidate_view.rs": "crates/phone-desktop/src/ui/candidates.rs",
+    "crates/phone-desktop/src/host_input.rs": "crates/phone-desktop/src/host/input.rs",
+    "crates/phone-desktop/src/macos_lifecycle.rs": "crates/phone-desktop/src/host/lifecycle.rs",
+    "crates/phone-desktop/src/local_files.rs": "crates/phone-desktop/src/storage/files.rs",
+    "crates/phone-desktop/src/local_files/tests.rs": "crates/phone-desktop/src/storage/files/tests.rs",
+    "crates/phone-desktop/src/storage_setup.rs": "crates/phone-desktop/src/storage/setup.rs",
+    "crates/phone-desktop/src/midi_synth.rs": "crates/phone-desktop/src/audio/midi.rs",
+    "crates/phone-desktop/src/native_audio.rs": "crates/phone-desktop/src/audio/native.rs",
+    "crates/phone-desktop/src/visual_media.rs": "crates/phone-desktop/src/media/visual.rs",
+    "crates/phone-desktop/src/snake_art.rs": "crates/phone-desktop/src/views/snake/art.rs",
+    "crates/phone-desktop/src/canvas/font_parity.rs": "crates/phone-desktop/src/canvas/parity.rs",
+    "crates/phone-desktop/src/phone/browser_data.rs": "crates/phone-desktop/src/phone/browser/data.rs",
+    "crates/phone-desktop/src/phone/calendar_form.rs": "crates/phone-desktop/src/phone/calendar.rs",
+    "crates/phone-desktop/src/phone/contact_groups.rs": "crates/phone-desktop/src/phone/contacts/groups.rs",
+    "crates/phone-desktop/src/phone/file_delete.rs": "crates/phone-desktop/src/phone/files/delete.rs",
+    "crates/phone-desktop/src/phone/media_browser.rs": "crates/phone-desktop/src/phone/media.rs",
+    "crates/phone-desktop/src/views/media_browser.rs": "crates/phone-desktop/src/views/media.rs",
+    "crates/phone-desktop/src/views/browser_chrome.rs": "crates/phone-desktop/src/views/browser/chrome.rs",
+    "crates/phone-desktop/src/views/browser_layout.rs": "crates/phone-desktop/src/views/browser/layout.rs",
+    "crates/phone-desktop/src/phone_tests.rs": "crates/phone-desktop/src/phone/tests.rs",
+    "crates/phone-desktop/src/phone/completion_tests.rs": "crates/phone-desktop/src/phone/tests/forms.rs",
+    "crates/phone-desktop/src/phone/conversation_tests.rs": "crates/phone-desktop/src/phone/conversation/tests.rs",
+    "crates/phone-desktop/src/views/audit_tests.rs": "crates/phone-desktop/src/views/audit.rs",
+    "crates/phone-desktop/src/ui/tone_picker.rs": "crates/phone-desktop/src/ui/tones.rs",
+    "crates/phone-core/src/sms_retry.rs": "crates/phone-core/src/sms/retry.rs",
+    "crates/phone-core/src/web_flow.rs": "crates/phone-core/src/browser/flow.rs",
+    "crates/phone-core/src/converter_data.rs": "crates/phone-core/src/converter/data.rs"
+  },
+  "checks": {
+    "workspace_tests": {
+      "passed": 198,
+      "ignored": 4
+    },
+    "clippy": "workspace all-targets, warnings denied, passed",
+    "fmt": "passed",
+    "diff_check": "passed",
+    "frames": "structure-frames.json",
+    "release_bundle": "built and ad-hoc signature verified; not launched"
+  },
+  "bundle_bytes": 19249498,
+  "executable_sha256": "161ffbc43e02d51ceb3b7c45bd116c867d0f9e47e2761fb0c92eb1223de45858",
+  "boundary": "Regression checks against existing behavior; no additional handset sampling, audio playback or full native-equivalence claim."
+}

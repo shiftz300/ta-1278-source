@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-27",
+  "version": "0.2.2",
+  "base_commit": "1f8b95bd2ba92561b4b2fa5545172180727cdd8e",
+  "working_tree_changes": true,
+  "checks": {
+    "tests": {
+      "core": 55,
+      "integration": 2,
+      "desktop": 138,
+      "passed": 195,
+      "failed": 0,
+      "ignored": 4
+    },
+    "clippy_warnings_denied": "passed",
+    "format": "passed",
+    "git_diff_check": "passed",
+    "firmware_and_15_physical_capture_hashes": "passed",
+    "optimized_signed_bundle": "passed",
+    "config_cli": [
+      "Default example parses with all optional apps enabled.",
+      "CLI disables override JSON in both argument orders.",
+      "Storage directory and read-only overrides are printed correctly.",
+      "Unknown/core-app keys and explicit missing files reject.",
+      "Absent default config uses defaults.",
+      "No profile directory, chooser, window or audio was created."
+    ]
+  },
+  "frames": [
+    {
+      "path": "docs/images/app-page-corrections-20261027/comparison.png",
+      "bytes": 173781,
+      "sha256": "a063087016538dae0957678e3bcd35e6427fe388e0836246234e9fbbe57e92d8"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/configured-core-last.png",
+      "bytes": 116276,
+      "sha256": "97afcc24afa6eece66a7edea41083ea5014a3eb75f1cc6e633c3d8fa8c8a6331"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/configured-core-menu.png",
+      "bytes": 116490,
+      "sha256": "0d43d7a2c92e5229ad3968b14a255dabcaa8999731727a138c20d06d23b5fd98"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/configured-home.png",
+      "bytes": 140100,
+      "sha256": "bb7240d8c04adc16e79637818597814c6ae81d6a4fc69eb4b3484b8a59364852"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/music-library-options.png",
+      "bytes": 14135,
+      "sha256": "57c18d6bddbe0772728217191e87929528b8b1c07f51e5accc9a27636f394512"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/music-library.png",
+      "bytes": 14742,
+      "sha256": "12c497798c4eef9d7f59eb4a61d6b9d9b0ba35c7d27194a92af7db026f982f8e"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/music-refresh-wait.png",
+      "bytes": 9837,
+      "sha256": "a626889f8e93298a4fa45bec87acedef18b6a8520cf9541bee1bc747d0cfd274"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/radio-base.png",
+      "bytes": 10219,
+      "sha256": "b1c0ac36e828cb2a1a0af4ff38e64ae883bc7762608718fbdd73ee606f5e3e39"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/radio-close-option.png",
+      "bytes": 24714,
+      "sha256": "c87997f3e1de4910f6614d580475227af5623eb44c760248addf2e3aa3688e62"
+    },
+    {
+      "path": "docs/images/app-page-corrections-20261027/radio-options.png",
+      "bytes": 24080,
+      "sha256": "9d73640cd3797615bfcf353e552a01cb6c4cbace2a6ece2329f465abae2186e3"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "target/TA1278.app/Contents/MacOS/phone-desktop",
+      "bytes": 18845248,
+      "sha256": "6372663b03a9ad058c722e596d65ed20b15ba1dd9fd875a169ad7b30ab093b83"
+    },
+    {
+      "path": "target/TA1278.app/Contents/MacOS/ta1278-media",
+      "bytes": 131808,
+      "sha256": "1223c9d19330c5a8a749a9f7eb57d4cc87f0231d2928369326205298f0ba7685"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "docs/evidence/app-page-evidence.json",
+      "bytes": 12769,
+      "sha256": "8e1e23024e81f39c16010970586a48ea0b2ac88d3a73f6403c741d9a5e478045"
+    },
+    {
+      "path": "docs/evidence/app-page-handlers-thumb.txt",
+      "bytes": 10230,
+      "sha256": "497fec61acfcdf87dc87038e6e5328ca218f0eb0551c0dd753c2687782bb5d49"
+    },
+    {
+      "path": "config/default.json",
+      "bytes": 520,
+      "sha256": "e71a183c2ce3ecca36df1151d1ddacfe51cf0ff116d7268b666f398419cd8b0d"
+    }
+  ],
+  "bundle_file_bytes": 19249498,
+  "boundaries": [
+    "Offline CPU rendering and static firmware reads only; no physical handset commands or audio output.",
+    "Five native/replica radio/music image pairs visually inspected.",
+    "Nine new individual frames include a configuration with every optional app disabled.",
+    "No normal-profile launch or new winit/Metal visual acceptance.",
+    "No new backend, full decompilation, commit or push.",
+    "App flags are runtime configuration, not binary feature stripping.",
+    "Old unclassified pending reminders remain saved and suppressed when either calendar or alarms is disabled."
+  ]
+}

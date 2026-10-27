@@ -1,0 +1,380 @@
+{
+  "baseline_kind": "Current working tree before this framework refactor, including earlier uncommitted corrections.",
+  "baseline": "/private/tmp/ta1278-ui-before",
+  "current": "/private/tmp/ta1278-ui-after",
+  "frames": [
+    {
+      "frame": "calculator-percent-ratio.png",
+      "before_sha256": "3a5d09eae2eec15b3e25122608473ee0e0a8f7197043cb2cfd47e4096fd6ac62",
+      "after_sha256": "3a5d09eae2eec15b3e25122608473ee0e0a8f7197043cb2cfd47e4096fd6ac62",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "calculator.png",
+      "before_sha256": "850ca38e9389357db3ad919210b53664ccc0e1e759ad574ef6937ff8c12968c5",
+      "after_sha256": "850ca38e9389357db3ad919210b53664ccc0e1e759ad574ef6937ff8c12968c5",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "calendar-form-menu.png",
+      "before_sha256": "0921a9367750c49d34d4c988768e4850cf8a8f4dfd46ae92f147655105684009",
+      "after_sha256": "0921a9367750c49d34d4c988768e4850cf8a8f4dfd46ae92f147655105684009",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "calendar-inline-empty.png",
+      "before_sha256": "a5cd4c5e958dc25d578da58e696c98794422782bb59607a0699fdf435e249e8a",
+      "after_sha256": "a5cd4c5e958dc25d578da58e696c98794422782bb59607a0699fdf435e249e8a",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "calendar-inline-note-filled.png",
+      "before_sha256": "242613dd0f59464437887ee3297906b6623bfdff3921117a5b8bf719f29f0f64",
+      "after_sha256": "242613dd0f59464437887ee3297906b6623bfdff3921117a5b8bf719f29f0f64",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "calendar-inline-note.png",
+      "before_sha256": "092e01bcb2f104b535df5191fc272a94b0d1beb85b94afc56910a8e399e9a75f",
+      "after_sha256": "092e01bcb2f104b535df5191fc272a94b0d1beb85b94afc56910a8e399e9a75f",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "configured-core-last.png",
+      "before_sha256": "97afcc24afa6eece66a7edea41083ea5014a3eb75f1cc6e633c3d8fa8c8a6331",
+      "after_sha256": "97afcc24afa6eece66a7edea41083ea5014a3eb75f1cc6e633c3d8fa8c8a6331",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "configured-core-menu.png",
+      "before_sha256": "0d43d7a2c92e5229ad3968b14a255dabcaa8999731727a138c20d06d23b5fd98",
+      "after_sha256": "0d43d7a2c92e5229ad3968b14a255dabcaa8999731727a138c20d06d23b5fd98",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "configured-home.png",
+      "before_sha256": "b896d3bdd07ce0d77c39669917c165c8da054a4eff14ff05016fe67af28da9fb",
+      "after_sha256": "cdfe734ff8163dea03d91e30e615a6ff1532b7f8e1cff552bfbe8a1cd3b9496b",
+      "difference_bounds": [
+        94,
+        53,
+        171,
+        83
+      ],
+      "live_clock_mask": [
+        0,
+        42,
+        240,
+        96
+      ],
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "converter-empty.png",
+      "before_sha256": "2c387e63c3ffe135812cb9665373069c790357c1d38be1555c3c036de614a984",
+      "after_sha256": "2c387e63c3ffe135812cb9665373069c790357c1d38be1555c3c036de614a984",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "converter-result.png",
+      "before_sha256": "a92c9e4e970e6ae23eeac57fe48d39d5fb6befea3cb13627478a5cd7d412483d",
+      "after_sha256": "a92c9e4e970e6ae23eeac57fe48d39d5fb6befea3cb13627478a5cd7d412483d",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "converter-reverse-focus.png",
+      "before_sha256": "56de2e6eb9df30d376c547df70c294f0d954d3c3194dd8531aef477395c5fa9b",
+      "after_sha256": "56de2e6eb9df30d376c547df70c294f0d954d3c3194dd8531aef477395c5fa9b",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "converter-root.png",
+      "before_sha256": "ef56cdf25683d8f2dce238821aa71fefff7a90412df2168103ba183263668b07",
+      "after_sha256": "ef56cdf25683d8f2dce238821aa71fefff7a90412df2168103ba183263668b07",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "converter-temperature-pairs.png",
+      "before_sha256": "935b08a63da8619698754b31c128ab5a4ea0a9de17e3166433c1199e48435edb",
+      "after_sha256": "935b08a63da8619698754b31c128ab5a4ea0a9de17e3166433c1199e48435edb",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-delete-checked.png",
+      "before_sha256": "30e73ab08eb73f045886172fff3eba2b01dd40af5728a84d40db608f81589892",
+      "after_sha256": "30e73ab08eb73f045886172fff3eba2b01dd40af5728a84d40db608f81589892",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-delete-confirm.png",
+      "before_sha256": "84d0895a3b4239edc94baa67d7e674a9c4e1b299397b72f126137b477f536f56",
+      "after_sha256": "84d0895a3b4239edc94baa67d7e674a9c4e1b299397b72f126137b477f536f56",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-delete-options.png",
+      "before_sha256": "4c1b656092a593386bc63a1a273f889b7f6852796dddcb2415b84875ac931cc3",
+      "after_sha256": "4c1b656092a593386bc63a1a273f889b7f6852796dddcb2415b84875ac931cc3",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-delete-select.png",
+      "before_sha256": "eef0a6082c9103ed32a05184f04ade9b69dff9cee0007dd37892c57eb5de1f21",
+      "after_sha256": "eef0a6082c9103ed32a05184f04ade9b69dff9cee0007dd37892c57eb5de1f21",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-details.png",
+      "before_sha256": "9b8922ceca5d18dab0890de585c10265883e0da4111e836acaa7a499b36b1663",
+      "after_sha256": "9b8922ceca5d18dab0890de585c10265883e0da4111e836acaa7a499b36b1663",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-folders.png",
+      "before_sha256": "13a9b82539865d312aeca18c590161fce6734dd656b0e56a71ffc4cb7f8ee5d3",
+      "after_sha256": "13a9b82539865d312aeca18c590161fce6734dd656b0e56a71ffc4cb7f8ee5d3",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-options.png",
+      "before_sha256": "4b95b592e33d564321b0d31bd2dc215f1aa61620ddf381e2ebe8c1f69519abac",
+      "after_sha256": "4b95b592e33d564321b0d31bd2dc215f1aa61620ddf381e2ebe8c1f69519abac",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "files-root.png",
+      "before_sha256": "93019e8ec75ea9deae223a320e8b36d752b43ac5320e46b2a7dae07fefc83d2b",
+      "after_sha256": "93019e8ec75ea9deae223a320e8b36d752b43ac5320e46b2a7dae07fefc83d2b",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "folder-name.png",
+      "before_sha256": "65a578d11101512f324bbb3e0575f4998faff4c55a69491bf5c8862a9f2e3395",
+      "after_sha256": "65a578d11101512f324bbb3e0575f4998faff4c55a69491bf5c8862a9f2e3395",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "folder-options.png",
+      "before_sha256": "7d08d35a1fa97f2cbec0af37d36b7aead3e5bc23798e556731999de7cfb3bef6",
+      "after_sha256": "7d08d35a1fa97f2cbec0af37d36b7aead3e5bc23798e556731999de7cfb3bef6",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "framework-alarm-menu.png",
+      "before_sha256": "a11aaf1e4676986e3c236347b90a8ff31e2527c15f93e34e38695bec0b1029e7",
+      "after_sha256": "a11aaf1e4676986e3c236347b90a8ff31e2527c15f93e34e38695bec0b1029e7",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "framework-calendar-menu.png",
+      "before_sha256": "ef20d9c5761dcfc52907cd1ce213efe8f5e0efe9cf3ec3046623f1bc6a7df942",
+      "after_sha256": "ef20d9c5761dcfc52907cd1ce213efe8f5e0efe9cf3ec3046623f1bc6a7df942",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "framework-contact-group-menu.png",
+      "before_sha256": "ac3607e872e8c24f94a0e1be73f6d73707bb05ffb09a7a00663ad9ee1687ce74",
+      "after_sha256": "ac3607e872e8c24f94a0e1be73f6d73707bb05ffb09a7a00663ad9ee1687ce74",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "framework-contact-menu.png",
+      "before_sha256": "312a02e6579a08584c55d48c12985a7d09e5180c36c63bc66866291cb820b6e7",
+      "after_sha256": "312a02e6579a08584c55d48c12985a7d09e5180c36c63bc66866291cb820b6e7",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "framework-contact-save.png",
+      "before_sha256": "ec001f70902fbbad14ac9184ddd132904815b56ddbcc0430fde8f4e0a727e196",
+      "after_sha256": "ec001f70902fbbad14ac9184ddd132904815b56ddbcc0430fde8f4e0a727e196",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "framework-contacts-menu.png",
+      "before_sha256": "8dbb416e7f8a7740db9cd4112ca3accb8ef5e8a836ced6e6f2710e6b1bc5b56d",
+      "after_sha256": "8dbb416e7f8a7740db9cd4112ca3accb8ef5e8a836ced6e6f2710e6b1bc5b56d",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "music-library-options.png",
+      "before_sha256": "57c18d6bddbe0772728217191e87929528b8b1c07f51e5accc9a27636f394512",
+      "after_sha256": "57c18d6bddbe0772728217191e87929528b8b1c07f51e5accc9a27636f394512",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "music-library.png",
+      "before_sha256": "12c497798c4eef9d7f59eb4a61d6b9d9b0ba35c7d27194a92af7db026f982f8e",
+      "after_sha256": "12c497798c4eef9d7f59eb4a61d6b9d9b0ba35c7d27194a92af7db026f982f8e",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "music-refresh-wait.png",
+      "before_sha256": "a626889f8e93298a4fa45bec87acedef18b6a8520cf9541bee1bc747d0cfd274",
+      "after_sha256": "a626889f8e93298a4fa45bec87acedef18b6a8520cf9541bee1bc747d0cfd274",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "other.png",
+      "before_sha256": "6b7b69129e9c4ea7307ccf0a40011402e6e9e78b05c9822cdbf2b0e4209f144d",
+      "after_sha256": "6b7b69129e9c4ea7307ccf0a40011402e6e9e78b05c9822cdbf2b0e4209f144d",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "radio-base.png",
+      "before_sha256": "b1c0ac36e828cb2a1a0af4ff38e64ae883bc7762608718fbdd73ee606f5e3e39",
+      "after_sha256": "b1c0ac36e828cb2a1a0af4ff38e64ae883bc7762608718fbdd73ee606f5e3e39",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "radio-close-option.png",
+      "before_sha256": "c87997f3e1de4910f6614d580475227af5623eb44c760248addf2e3aa3688e62",
+      "after_sha256": "c87997f3e1de4910f6614d580475227af5623eb44c760248addf2e3aa3688e62",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "radio-options.png",
+      "before_sha256": "9d73640cd3797615bfcf353e552a01cb6c4cbace2a6ece2329f465abae2186e3",
+      "after_sha256": "9d73640cd3797615bfcf353e552a01cb6c4cbace2a6ece2329f465abae2186e3",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "radio.png",
+      "before_sha256": "54d4e50ef516a1257d420efcc45864023cd20bca8a5d8239c1185896df07f628",
+      "after_sha256": "54d4e50ef516a1257d420efcc45864023cd20bca8a5d8239c1185896df07f628",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "recorder.png",
+      "before_sha256": "b2021bbc9fa38b0bb059d5356742d2d0caf3cb9d29b4e1b116ba747437c8564f",
+      "after_sha256": "b2021bbc9fa38b0bb059d5356742d2d0caf3cb9d29b4e1b116ba747437c8564f",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "stopwatch.png",
+      "before_sha256": "4aa2acbd11841b494fe013caae77d042adbdc101e485c37d8365f596f5491922",
+      "after_sha256": "4aa2acbd11841b494fe013caae77d042adbdc101e485c37d8365f596f5491922",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "timer-empty.png",
+      "before_sha256": "63da18190f948aaf0129acb607a43472fd39924ee2eda20e0c53c0043291a304",
+      "after_sha256": "63da18190f948aaf0129acb607a43472fd39924ee2eda20e0c53c0043291a304",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "timer-expired.png",
+      "before_sha256": "ead54d86486f17ef299328ba0f1f51b887b1fefebfcf0083e30b7762eeaaf1b0",
+      "after_sha256": "ead54d86486f17ef299328ba0f1f51b887b1fefebfcf0083e30b7762eeaaf1b0",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "timer-long-name.png",
+      "before_sha256": "fd6bc8d7b4768dbc6ac1772892acf0e946a0765bd6a009c067339a98ca48070b",
+      "after_sha256": "fd6bc8d7b4768dbc6ac1772892acf0e946a0765bd6a009c067339a98ca48070b",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "timer-menu.png",
+      "before_sha256": "8cfa4763033e9f1df2e5c0c1c3e23d933f35a670bad3e6a9608a19a98f670bbb",
+      "after_sha256": "8cfa4763033e9f1df2e5c0c1c3e23d933f35a670bad3e6a9608a19a98f670bbb",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    },
+    {
+      "frame": "timer-named.png",
+      "before_sha256": "9bf878deb2d19351240ee9857dc58ea7dd015e5a6fc04b0c531a078df425a7b7",
+      "after_sha256": "9bf878deb2d19351240ee9857dc58ea7dd015e5a6fc04b0c531a078df425a7b7",
+      "difference_bounds": null,
+      "live_clock_mask": null,
+      "unchanged_outside_clock": true
+    }
+  ],
+  "exact_matches": 44,
+  "passed": true,
+  "boundary": "CPU frames only. This checks regression against the prior implementation, not new native or GPU acceptance."
+}

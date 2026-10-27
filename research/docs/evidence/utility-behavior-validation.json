@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-27",
+  "version": "0.2.2",
+  "base_commit": "1f8b95bd2ba92561b4b2fa5545172180727cdd8e",
+  "working_tree_changes": true,
+  "checks": {
+    "default_tests": {
+      "core": 55,
+      "integration": 2,
+      "desktop": 130,
+      "passed": 187,
+      "failed": 0,
+      "ignored": 4
+    },
+    "clippy_warnings_denied": "passed",
+    "format": "passed",
+    "git_diff_check": "passed",
+    "firmware_table_and_opcode_checks": "passed",
+    "optimized_bundle_and_strict_deep_codesign": "passed"
+  },
+  "frames": [
+    {
+      "path": "docs/images/utility-fixes-20261027/calculator-percent-ratio.png",
+      "bytes": 14133,
+      "sha256": "3a5d09eae2eec15b3e25122608473ee0e0a8f7197043cb2cfd47e4096fd6ac62"
+    },
+    {
+      "path": "docs/images/utility-fixes-20261027/comparison.png",
+      "bytes": 90613,
+      "sha256": "ae636f1d52af747df71e206cb816b7dbb76f37b2b4d83925116cf98d7ca79893"
+    },
+    {
+      "path": "docs/images/utility-fixes-20261027/converter-empty.png",
+      "bytes": 8137,
+      "sha256": "2c387e63c3ffe135812cb9665373069c790357c1d38be1555c3c036de614a984"
+    },
+    {
+      "path": "docs/images/utility-fixes-20261027/converter-result.png",
+      "bytes": 12414,
+      "sha256": "a92c9e4e970e6ae23eeac57fe48d39d5fb6befea3cb13627478a5cd7d412483d"
+    },
+    {
+      "path": "docs/images/utility-fixes-20261027/converter-reverse-focus.png",
+      "bytes": 12411,
+      "sha256": "56de2e6eb9df30d376c547df70c294f0d954d3c3194dd8531aef477395c5fa9b"
+    },
+    {
+      "path": "docs/images/utility-fixes-20261027/converter-root.png",
+      "bytes": 15051,
+      "sha256": "ef56cdf25683d8f2dce238821aa71fefff7a90412df2168103ba183263668b07"
+    },
+    {
+      "path": "docs/images/utility-fixes-20261027/converter-temperature-pairs.png",
+      "bytes": 14129,
+      "sha256": "935b08a63da8619698754b31c128ab5a4ea0a9de17e3166433c1199e48435edb"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "target/TA1278.app/Contents/MacOS/phone-desktop",
+      "bytes": 18812272,
+      "sha256": "e3b894a2c2c517b3c1072a2f842620d5b41ee400e759aee7c882840e2d4fb24b"
+    },
+    {
+      "path": "target/TA1278.app/Contents/MacOS/ta1278-media",
+      "bytes": 131808,
+      "sha256": "1223c9d19330c5a8a749a9f7eb57d4cc87f0231d2928369326205298f0ba7685"
+    }
+  ],
+  "bundle_file_bytes": 19216522,
+  "boundaries": [
+    "Five stored physical/replica converter pairs visually inspected; calculator percent is code-verified, not newly phone-sampled.",
+    "Six new CPU frames, no new winit/Metal visual acceptance.",
+    "No physical handset commands, sound output, vibration or real services.",
+    "No full firmware source recovery, new repository, commit or push in this pass.",
+    "Currency/custom conversion, exact libc rounding and exceptional edit transitions remain unverified."
+  ],
+  "evidence": [
+    {
+      "path": "docs/evidence/converter-recovery.json",
+      "bytes": 21856,
+      "sha256": "00645bd89bce3543ff16959625a85bca8bed991c077e8b3c012427418685e3ab"
+    },
+    {
+      "path": "docs/evidence/converter-thumb.txt",
+      "bytes": 60080,
+      "sha256": "71b9706330121fb92fcc59b62e41209eb3b4915bf695696e4a2e0d04180aeef8"
+    },
+    {
+      "path": "docs/evidence/calculator-percent.json",
+      "bytes": 1325,
+      "sha256": "17e13ed02b646555a19abc5b4122aabb72e8ad4d1858c2416846be780a8bf63d"
+    },
+    {
+      "path": "docs/evidence/calculator-percent-thumb.txt",
+      "bytes": 12118,
+      "sha256": "6be6699ae28a6fe3c4116cff18239f5658e68bc59445d491fe4e71cf69e0c777"
+    }
+  ]
+}

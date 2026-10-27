@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-27",
+  "version": "0.2.2",
+  "base_commit": "1f8b95bd2ba92561b4b2fa5545172180727cdd8e",
+  "working_tree_changes": true,
+  "scope": "Shared focus, typed menu items and popup composition; prior uncommitted work retained.",
+  "adoption": {
+    "popup_calls": 13,
+    "vertical_navigation_calls": 11,
+    "typed_application_menus": [
+      "radio options",
+      "mail options"
+    ]
+  },
+  "checks": {
+    "tests": {
+      "core": 55,
+      "integration": 2,
+      "desktop": 141,
+      "passed": 198,
+      "failed": 0,
+      "ignored": 4
+    },
+    "clippy_warnings_denied": "passed",
+    "format": "passed",
+    "diff_check": "passed",
+    "release_bundle_strict_deep_signature": "passed",
+    "cpu_frames": {
+      "count": 45,
+      "exact": 44,
+      "all_unchanged_outside_home_clock": true
+    }
+  },
+  "source_modules": [
+    {
+      "path": "crates/phone-desktop/src/ui/navigation.rs",
+      "sha256": "50df1e8b7b80ec6f3189cde4d157406334fa6a9843ac7a25706695ad74375b09"
+    },
+    {
+      "path": "crates/phone-desktop/src/ui/menu.rs",
+      "sha256": "8ac77759b56cad5b451ae1f0f5c3cbd8159288346f08fd33829a5aeaf5607241"
+    },
+    {
+      "path": "crates/phone-desktop/src/ui/popup.rs",
+      "sha256": "7c74cca00bc3e14a9a4ad51a7c902290a119d15ab1e7e5eee95dd849aabb0870"
+    },
+    {
+      "path": "crates/phone-desktop/src/phone/radio.rs",
+      "sha256": "ce58d037bcad132f5d31656cb90dbd256bf57e7bca701d2d3b2e243a0bf09ece"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "target/TA1278.app/Contents/MacOS/phone-desktop",
+      "bytes": 18845264,
+      "sha256": "763b3f0782ca07cccab36e19837cbb1d1c9e778fd95df0d89af3900cd666fe0b"
+    },
+    {
+      "path": "target/TA1278.app/Contents/MacOS/ta1278-media",
+      "bytes": 131808,
+      "sha256": "1223c9d19330c5a8a749a9f7eb57d4cc87f0231d2928369326205298f0ba7685"
+    }
+  ],
+  "bundle_file_bytes": 19249514,
+  "comparison_sha256": "a12ddf7837c7bd341ae02b8864354ac9c631c3fc3e74e0e6a454a4805be1e86c",
+  "boundaries": [
+    "CPU framebuffer comparison against the pre-refactor working tree, not native/GPU acceptance.",
+    "Home clock is the only permitted pixel mask.",
+    "No physical handset commands, audio output or user profile launch.",
+    "No new dependency, saved schema change, global navigation stack or whole-firmware recovery.",
+    "No commit or push."
+  ]
+}

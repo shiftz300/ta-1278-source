@@ -1,0 +1,42 @@
+{
+  "source": "nokia-ta1278-research/firmware/original/system-20261025T054301+0800/user.bin",
+  "source_sha256": "8f0db2dc82f9e763cb700c2e5781b7ca7125a4d250f4c075dbec793eb549c1ca",
+  "operator": "%",
+  "operator_assignment": "0x88b911c0",
+  "dispatch": "0x88b909f4 -> 0x88b90a72",
+  "multiplier_address": "0x88b90bf4",
+  "multiplier": 100.0,
+  "formula": "lhs * 100.0 / rhs",
+  "instructions": [
+    "0x88b90a98 vmul.f64 d1,d9,d1",
+    "0x88b90a9c vdiv.f64 d8,d1,d0"
+  ],
+  "checked_bytes": {
+    "0x88b911c0": "2520",
+    "0x88b909f4": "2528",
+    "0x88b909f6": "3cd0",
+    "0x88b90a98": "29ee011b",
+    "0x88b90a9c": "81ee008b"
+  },
+  "ranges": [
+    {
+      "start": "0x88b90932",
+      "end": "0x88b90aba",
+      "sha256": "3d2c5c54baa3eabe5bbfa828edce30cd315b2b7a53cf1d0359a08fcb2f398e5f"
+    },
+    {
+      "start": "0x88b90be4",
+      "end": "0x88b90c1c",
+      "sha256": "3e7b59961b94d78190c5fcca17899b290fb689ae2cbbc006c9e02f479e038431"
+    },
+    {
+      "start": "0x88b91134",
+      "end": "0x88b911d4",
+      "sha256": "30ac88db51a294b6dec497b9474c1f234a5782b68fcbba7834f6092fa358525f"
+    }
+  ],
+  "limits": [
+    "Static arithmetic/operator recovery, not a physical percentage test.",
+    "Full calculator state-machine, repeated equals, formatting and tiny-denominator thresholds are not reconstructed."
+  ]
+}

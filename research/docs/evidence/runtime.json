@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-27",
+  "scope": "First user-space embedding boundary; existing uncommitted fidelity/config/source-cleanup work preserved.",
+  "checks": {
+    "desktop_workspace": {
+      "command": "cargo test --workspace --locked",
+      "passed": 202,
+      "ignored": 4
+    },
+    "without_desktop": {
+      "command": "cargo test -p phone-desktop --no-default-features --lib --locked",
+      "passed": 139,
+      "ignored": 4
+    },
+    "clippy": "workspace all-targets and no-default-features all-targets, warnings denied; passed",
+    "format": "passed",
+    "diff_check": "passed",
+    "cpu_frames": {
+      "count": 45,
+      "exact": 44,
+      "outside_live_clock_unchanged": true,
+      "report": "runtime-frames.json"
+    },
+    "example": "cargo run -p phone-desktop --no-default-features --locked --example embed -- /private/tmp/ta1278-embed",
+    "example_checks": [
+      "4 PNGs via public rendering API",
+      "host key input and supplied wall/elapsed clock",
+      "host-provided HTML document",
+      "synthetic incoming message persisted and restored in memory"
+    ],
+    "excluded_dependencies": [
+      "winit",
+      "wgpu",
+      "pollster"
+    ],
+    "package": "optimized macOS bundle rebuilt; ad-hoc signature verified; --version and --check-config passed without launch"
+  },
+  "example_frames": [
+    {
+      "file": "/private/tmp/ta1278-embed/browser.png",
+      "sha256": "ad08cc8dcad4c2991a0b0ead07b3d41d3c4e82c762b0f2c931418b2e9814515d"
+    },
+    {
+      "file": "/private/tmp/ta1278-embed/home.png",
+      "sha256": "f0285732a0d940f2edb4bbd112434df9db261e689278551c0d167212ed664391"
+    },
+    {
+      "file": "/private/tmp/ta1278-embed/menu.png",
+      "sha256": "3a421739e6d4ae07d496f8c5ad1f97ba209e8620aa0e0028587e7bfcb5cab488"
+    },
+    {
+      "file": "/private/tmp/ta1278-embed/restored.png",
+      "sha256": "927a53f9462361b52a821e66acd4f92805d2ea868dee8c9ef7a64e150b784e94"
+    }
+  ],
+  "bundle_bytes": 19249466,
+  "executable_sha256": "ac83f9c76789a7ea54aa4a62d336e7076a639fae7266c5630f78dbf8c616eac2",
+  "limits": [
+    "macOS arm64 checked; no Windows/Linux native acceptance",
+    "No real phone/network/audio-output operations",
+    "Profile checkpoints restore to Home, not transient UI or process state",
+    "Native media has independent clocks and legacy music persistence",
+    "No new message/call backend; no exhaustive firmware-equivalence claim"
+  ],
+  "development_findings": [
+    "Fixed public document navigation retaining browser start-screen mode.",
+    "Gated the existing Swift image-helper test to desktop builds; that helper is intentionally absent without desktop features."
+  ]
+}
